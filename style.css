@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -19,11 +20,15 @@ div ul a {
 }
 
 .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 15px;
-    width: auto;
+    background-color: white;
+    padding: 15px 40px;
     
 }
 .cmn-btn{
@@ -48,7 +53,7 @@ div ul a {
             rgba(0, 0, 0, 0.85),
             rgba(0, 0, 0, 0.70)
         ),url(./assets/banner.jpg);
-    background-size: 2400px;
+    background-size: cover;
     height: 710px;
     background-repeat: no-repeat;
     background-position: center;
@@ -82,8 +87,67 @@ div ul a {
     font-family: "Inter", Bold;
     font-size: 60px;
     text-align: center;
+    margin-bottom: 20px;
+}
+.cards-container {
+    background-color: #ffffff;
+    margin: 80px;
+    text-align: center;
 }
 
+.card-margin{
+    color: #1d2234;
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    gap: 30px;
+
+
+}
+.cards-content{
+    height: auto;
+    width: 570px;
+    background-color: #ffffff;
+    border: 0.5px solid #E5E7EB;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cards-write{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+}
+.card-img{
+padding-bottom: 10px;
+width: 100%;
+height: 324px;
+object-fit: cover;
+display: block;
+
+
+}
+
+.cards-content h5 {
+    color: #2563EB;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+.cards-content h3{
+    color: #0D1B2A;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+.cards-content h6{
+    color: #35485e;
+    font-family: "Inter", Light;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
 
 
 
