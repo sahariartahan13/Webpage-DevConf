@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div ul
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+div ul a {
+    font-family: "Arimo", sans-serif;
+    text-decoration: none;
+    color:#575757;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    width: auto;
+    
+}
+.cmn-btn{
+    font-family: "Inter", sans-serif;
+    background-color: #2563EB;
+    color: white;
+    height: 38px;
+    border-radius: 7px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}   
+.cmn-btn:hover{
+    background-color:  #1d2234;
+
+    }
+
+.banner-pic{
+    
+    background-image: 
+    linear-gradient(
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.70)
+        ),url(./assets/banner.jpg);
+    background-size: 2400px;
+    height: 710px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    margin-bottom: 70px;
+}
+.banner-content {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+
+}
+.banner-content h1{
+    margin-bottom: 30px;
+}
+.banner-content p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 350px;
+
+}
+
+.speakers-head{
+    font-family: "Inter", Bold;
+    font-size: 60px;
+    text-align: center;
+}
