@@ -60,6 +60,7 @@ div ul a {
     background-position: center;
     overflow: hidden;
 
+    flex: 1 1 1550px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -335,3 +336,143 @@ display: block;
     border-radius: 6px;
 }
 
+.price-header {
+    text-align: center;
+    margin: 80px;
+}
+
+.price-header h1{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    
+}
+.price-header p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 80px 80px 80px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 0.5px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 30px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.pro {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.version {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #35485e;
+    margin-bottom: 10px;
+}
+
+.card.pro .version {
+    color: #2563EB;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 5px;
+}
+
+.card.pro .price {
+    color: white;
+}
+
+.per {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 20px;
+}
+
+.card hr {
+    border: none;
+    border-top: 0.5px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.card.pro hr {
+    border-top: 0.5px solid #35485e;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+    display: block;
+    flex-grow: 1;
+}
+
+.card ul li {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #35485e;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.card.pro ul li {
+    color: #d1d5db;
+}
+
+.card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.card ul li {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #35485e;
+    margin-bottom: 12px;
+}
+
+.card button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-outline {
+  background-color: white;  
+  color: #2563EB;
+  border: 1px solid #2563EB;
+}
+
+.btn-dark{
+    border: 1px solid #0D1B2A ;
+}
+
+
+
+.card.team {
+    background-color: #f9fafb;
+}
