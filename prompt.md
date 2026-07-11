@@ -1,0 +1,5 @@
+Prompt used for generative ai section :
+
+I've uploaded a screenshot of my DevConf 2026 landing page. It has a placeholder section labeled 'Something Missing? Generate a relevant section with AI' that I need to replace with actual content.
+Please analyze the existing design system — the layout structure, color palette (blue accent, dark navy cards, white background), typography, and card/border style used in the Speakers and Pricing sections — and suggest a new section that would logically fit this page (for example, one that matches an existing but empty navigation item like Schedule, Tracks, or Venue).
+Then generate beginner-friendly HTML and CSS code for that section, keeping the code simple enough for someone new to web development to understand and edit, and make sure it visually matches the rest of the page.
