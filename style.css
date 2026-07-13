@@ -103,7 +103,6 @@ div ul a {
     color: #1d2234;
     display: grid;
     grid-template-columns: repeat(2,0fr);
-    text-align: left;
     padding-bottom: 10px;
     padding-left: 50px;
     gap: 30px;
