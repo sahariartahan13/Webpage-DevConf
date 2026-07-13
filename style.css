@@ -96,6 +96,7 @@ div ul a {
     background-color: #ffffff;
     margin: 80px;
     text-align: center;
+    
 }
 
 .card-margin{
@@ -106,6 +107,8 @@ div ul a {
     padding-bottom: 10px;
     padding-left: 50px;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 
 
 }
